@@ -18,6 +18,9 @@ Install the dependencies (you'll need [npm](https://npmjs.org/) and [bower](http
 $ npm install
 $ bower install
 
+if behind firewall then use (note: whole line below is a command)- 
+git config --global url."https://".insteadOf git://
+
 // Run the node server
 $ node server.js
 ```
